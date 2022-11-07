@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Buscaminas</string>
+    <string name="niveles">Niveles</string>
+    <string name="nueva_partida">Nueva Partida</string>
+    <string name="dificultad_facil">Fácil</string>
+    <string name="dificultad_medio">Medio</string>
+    <string name="dificultad_dificil">Difícil</string>
+    <string name="reset_button">🙂</string>
+    <string name="bandera">🚩</string>
+    <string name="tiempo">Tiempo: &#160; </string>
+    <string name="minas">Minas: &#160; </string>
+    <string name="tiempo_inicial">Tiempo: 0</string>
+    <string name="minas_inicial">Minas: 0</string>
+
+</resources>

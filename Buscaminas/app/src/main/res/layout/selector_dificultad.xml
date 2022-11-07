@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SelectorDificultad">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Facil"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="25dp"
+            android:backgroundTint="@color/light_green"
+            android:text="@string/dificultad_facil"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/Medio"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="25dp"
+            android:text="@string/dificultad_medio"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:backgroundTint="@color/light_blue"
+            app:cornerRadius="30dp"/>
+
+        <Button
+            android:id="@+id/Dificil"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:text="@string/dificultad_dificil"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:backgroundTint="@color/light_red"
+            app:cornerRadius="30dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
